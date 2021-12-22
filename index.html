@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheatsheet</title>
+    <link rel='stylesheet' href='./styles.css'>
+</head>
+
+<body>
+    <div class='title'>
+        <h1>Input Cheatsheet</h1>
+    </div>
+    <br>
+
+    <section class='tables'>
+
+        <!-- first table -->
+        <table class='center'>
+            <h3><em>Input Tags</em></h3>
+            <tr>
+                <th>Tag</th>
+                <th style='width: 40%;'>Attributes</th>
+                <th style="width: 45%;">Description</th>
+            </tr>
+            <tr>
+                <td>&ltform&gt</td>
+                <td>action, method</td>
+                <td>main form element</td>
+            </tr>
+            <tr>
+                <td>&ltinput&gt</td>
+                <td>type, id, name, required, min, max, value, pattern</td>
+                <td>allows for input</td>
+            </tr>
+            <tr>
+                <td>&ltlabel&gt</td>
+                <td>for, form</td>
+                <td>labels the input</td>
+            </tr>
+            <tr>
+                <td>&lttextarea&gt</td>
+                <td>name, form, wrap, rows, maxlength, required</td>
+                <td>an area for larger chunks of input</td>
+            </tr>
+            <tr>
+                <td>&ltselect&gt</td>
+                <td>name, form, multiple, required, autofocus</td>
+                <td>drop down list</td>
+            </tr>
+            <tr>
+                <td>&ltdatalist&gt</td>
+                <td>id</td>
+                <td>set of items from dropdown menu</td>
+            </tr>
+            <tr>
+                <td>&ltoption&gt</td>
+                <td>label, selected, value</td>
+                <td>allows adding option to list</td>
+            </tr>
+        </table>
+
+        <!-- second table -->
+        <br>
+        <table class='center'>
+            <h3><em>Type Attributes</em></h3>
+            <tr>
+                <th style="width: 50%;">Value</th>
+                <th style="width: 50%;">Desc</th>
+            </tr>
+            <tr>
+                <td>type='text'</td>
+                <td><input type='text' value='text type' size="10"></td>
+            </tr>
+            <tr>
+                <td>type='checkbox'</td>
+                <td>
+                    <form action="">
+                        <label for='choice'>Check</label>
+                        <input type="checkbox" name="choice" id="check">
+                        <label for="choice">Both</label>
+                        <input type="checkbox" name="choice" id="both">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>type='color'</td>
+                <td><input type='color'></td>
+            </tr>
+            <tr>
+                <td>type='date'</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>type='password'</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td>type='submit'</td>
+                <td><input type="submit"></td>
+            </tr>
+            <tr>
+                <td>type='radio'</td>
+                <td>
+                    <form action="">
+                        <label for="choice">This</label>
+                        <input type="radio" id='this' name='choice'>
+                        <label for='choice'>That</label>
+                        <input type="radio" id="2" name="choice">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>type='range'</td>
+                <td><input type="range"></td>
+            </tr>
+        </table>
+
+        <!-- third table -->
+        <table class="center">
+            <h3><em>Other Examples</em></h3>
+            <tr>
+                <th>object</th>
+                <th>example</th>
+            </tr>
+            <tr>
+                <td>Dropdown</td>
+                <td>
+                    <label for="az">Choose:</label>
+                    <select name="az" id="az">
+                        <option value="abc">abc</option>
+                        <option value="ijk">ijk</option>
+                        <option value="xyz">xyz</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Text Area</td>
+                <td>
+                    <textarea>Enter text here</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Datalist</td>
+                <td>
+                    <label for="browser">Choose browser:</label>
+                    <input list="browsers" name="browser" id="browser">
+                    <datalist id="browsers">
+                        <option value="Edge">
+                        <option value="Firefox">
+                        <option value="Chrome">
+                        <option value="Opera">
+                        <option value="Safari">
+                      </datalist>
+                </td>
+            </tr>
+        </table>
+        </div>
+</body>
+</html>

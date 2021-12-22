@@ -1,0 +1,45 @@
+body {
+    background-color: powderblue;
+    font-family: monospace;
+    text-align: center;
+}
+
+.title {
+    color:teal;
+    font-weight: 400;
+    font-size: xx-large;
+    background-color: wheat;
+    text-shadow: 2px 2px grey;
+    -webkit-text-stroke: 1px wheat;
+}
+
+table, th, td {
+    border: 2px solid powderblue;
+    font-size: medium;
+    border-radius: 10px;
+    word-wrap: break-word;
+}
+
+th, td {
+    background-color: wheat;
+    padding: 5px;
+}
+
+th {
+    background-color:rgb(195, 186, 233);
+}
+
+tr {
+    height: 65px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+em {
+    background-color: wheat;
+    border-bottom: 2px solid grey;
+    padding: 0px 5px 0px 5px;
+}
